@@ -1,0 +1,11 @@
+$(document).ready(function(){
+    $('#menu').click(function(){
+        $('nav').toggleClass('active');
+    });
+    $('#close-btn').click(function(){
+        $('nav').removeClass('active');
+    });
+    $('.nav__link').click(function(){
+        $('nav').removeClass('active');
+    });
+});
